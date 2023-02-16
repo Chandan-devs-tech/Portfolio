@@ -42,7 +42,7 @@ nav {
 
 .hero-intro {
   position: relative;
-  background: url("/Assets/header-illsutration-mobile.svg");
+  background: url("../Assets/header-illsutration-mobile.svg");
   background-repeat: no-repeat;
   background-size: 100%;
   width: 100%;
@@ -116,7 +116,7 @@ nav {
 
   .hero-intro {
     position: relative;
-    background: url("/Assets/Header-llustration-desktop.svg");
+    background: url("../Assets/Header-llustration-desktop.svg");
     background-repeat: no-repeat;
     background-size: 100%;
     width: 100%;
