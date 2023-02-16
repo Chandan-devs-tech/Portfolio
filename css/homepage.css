@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  height: auto;
+  font-family: "Inter", sans-serif;
+}
+
+nav {
+  height: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: transparent;
+}
+
+.header-title {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28px;
+  color: #28352f;
+  margin-left: 20px;
+}
+
+.hamburger-btn {
+  display: block;
+  font-size: 23px;
+  float: right;
+  line-height: 50px;
+  margin-right: 40px;
+}
+
+.hero-intro {
+  position: relative;
+  background: url(/Assets/header-illsutration-mobile.svg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 100%;
+  height: auto;
+}
+
+.hero-intro-container {
+  width: 90%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.hero-intro-heading {
+  width: 100%;
+  color: #172b4d;
+  margin-bottom: 1rem;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  text-align: center;
+  padding-top: 85px;
+  margin-left: 18px;
+}
+
+.hero-intro-description {
+  margin-bottom: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  color: #172b4d;
+  margin-left: 18px;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5em;
+  cursor: pointer;
+  list-style-type: none;
+  margin-top: 32px;
+}
+
+.span-text {
+  color: #36b37e;
+}
+
+.disabled-btn {
+  margin-top: 64px;
+  display: flex;
+  justify-content: center;
+}
+
+.icons:hover {
+  background: #c5e9da;
+}
+
+@media screen and (min-width: 768px) {
+  nav {
+    display: none;
+  }
+
+  .hero-intro-container {
+    padding-top: 140px;
+  }
+
+  .hero-intro {
+    position: relative;
+    background: url(/Assets/Header-llustration-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+    padding-bottom: 280px;
+  }
+}
