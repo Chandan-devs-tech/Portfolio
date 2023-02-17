@@ -32,12 +32,26 @@ nav {
   margin-left: 20px;
 }
 
-.hamburger-btn {
-  display: block;
-  font-size: 23px;
-  float: right;
-  line-height: 50px;
-  margin-right: 40px;
+.hamburger {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  padding-right: 30px;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .nav-links {
+    display: none;
+  }
+}
+
+.stroke {
+  width: 20px;
+  height: 3px;
+  background-color: #505f79;
+  border-radius: 8px;
+  list-style-type: none;
 }
 
 .hero-intro {
@@ -106,7 +120,8 @@ nav {
 }
 
 @media screen and (min-width: 768px) {
-  nav {
+  .hamburger,
+  .header-title {
     display: none;
   }
 
@@ -115,11 +130,29 @@ nav {
   }
 
   .hero-intro {
-    position: relative;
     background: url("../Assets/Header-llustration-desktop.svg");
     background-repeat: no-repeat;
     background-size: 100%;
     width: 100%;
     padding-bottom: 280px;
+  }
+
+  nav {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+  }
+
+  .nav-links {
+    display: flex;
+  }
+
+  .nav-links-effect a {
+    padding: 10px 12px;
+    color: #344563;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
   }
 }
