@@ -73,7 +73,7 @@
 
 - [Live Demo Link](https://chandan-devs-tech.github.io/Portfolio/)
 
-<img src="screenshot of moibile-version_(iPhone SE).png" alt="screenshot of moibile-version_(iPhone SE)" width="auto"  height="auto" />
+<img src="screenshot of moibile-version_(iPhone SE).png" alt="screenshot of moibile-version_(iPhone SE)" width="300px"  height="auto" />
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
