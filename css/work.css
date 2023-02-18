@@ -1,0 +1,124 @@
+.work-text-container {
+  display: flex;
+  justify-content: center;
+}
+
+.work-text {
+  font-family: "Inter", sans-serif;
+  color: #172b4d;
+  font-weight: 700;
+  font-size: 40px;
+  text-align: center;
+  line-height: 52px;
+  padding-top: 22px;
+  width: 70%;
+}
+
+.indicator {
+  display: flex;
+  justify-content: center;
+  margin-top: 24px;
+}
+
+.indicator-img {
+  width: 48px;
+  height: 4px;
+  border-radius: 24px;
+  background: #36b37e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.work-container {
+  display: grid;
+  grid-template-columns: 327px;
+  grid-template-rows: repeat(5, 474px);
+  row-gap: 24px;
+  justify-content: center;
+  padding-top: 62px;
+}
+
+.container1 {
+  border-radius: 8px;
+  background: #ebf0ee;
+  outline: 1px solid #d0d9d4;
+}
+
+.container2 {
+  width: 327px;
+  height: 222px;
+  border-radius: 8px;
+  margin-top: 252px;
+  background: #fff;
+  padding-top: 16px;
+}
+
+h4 {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  text-align: center;
+  line-height: 32px;
+  margin: 0 16px;
+  color: #3a4a42;
+  font-style: normal;
+}
+
+.list-languages {
+  display: flex;
+  justify-content: center;
+  padding-top: 16px;
+}
+
+.languages {
+  margin-left: 5px;
+  padding: 8px 11px;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  color: #3a4a42;
+  background: #ebf0ee;
+  border-radius: 4px;
+}
+
+.container2-btn {
+  display: flex;
+  justify-content: center;
+  padding-top: 29px;
+}
+
+.see-project {
+  padding: 12px;
+  background: #36b37f;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #fff;
+  border-style: none;
+  border-radius: 4px;
+}
+
+@media screen and (min-width: 768px) {
+  .work-container {
+    display: grid;
+    grid-template-columns: 327px 327px 327px;
+    grid-template-rows: 474px 474px;
+    column-gap: 24px;
+    justify-content: center;
+    padding-top: 62px;
+    padding-bottom: 88px;
+  }
+
+  .indicator {
+    display: none;
+  }
+
+  .work-text {
+    padding-top: 80px;
+  }
+}
