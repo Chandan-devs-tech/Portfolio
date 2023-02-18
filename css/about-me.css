@@ -1,0 +1,88 @@
+.about-me {
+  width: 100%;
+  align-items: center;
+}
+
+.primary-text-about-me {
+  display: flex;
+  justify-content: center;
+  background-image: url("../Assets/Mask\ Group.svg");
+  background-repeat: no-repeat;
+  background-position-x: right;
+}
+
+.primary-text-about-me-heading {
+  padding-top: 68px;
+  color: #172b4d;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  text-align: center;
+  line-height: 52px;
+  width: 100%;
+}
+
+.supporting-text-about-me {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-top: 25px;
+}
+
+.supporting-text-about-me-para {
+  color: #42526e;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  text-align: center;
+  line-height: 32px;
+  width: 90%;
+}
+
+.about-me-btn {
+  display: flex;
+  justify-content: center;
+  padding-top: 25px;
+  padding-bottom: 59px;
+  background-image: url("../Assets/Frame.svg");
+  background-repeat: no-repeat;
+  background-position-x: left;
+}
+
+.get-my-resume-btn {
+  width: 159px;
+  height: 48px;
+  padding: 12px;
+  gap: 10px;
+  background: #36b37f;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #fff;
+  border-style: none;
+  border-radius: 4px;
+}
+
+@media screen and (min-width: 768px) {
+  .about-me-btn {
+    background-image: url("../Assets/illustration-about-me-2-desktop.svg");
+    background-repeat: no-repeat;
+    background-position-x: left;
+  }
+
+  .primary-text-about-me {
+    background-image: none;
+  }
+
+  .about-me {
+    background-image: url("../Assets/illustration\ about\ me\ desktop.svg");
+    background-repeat: no-repeat;
+    background-position-x: right;
+  }
+
+  .supporting-text-about-me-para {
+    width: 61%;
+  }
+}
