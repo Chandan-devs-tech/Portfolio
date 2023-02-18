@@ -2,7 +2,7 @@
 
 <div align="center">
 
-  <h3><b>PERSONAL PORTFOLIO</b></h3>
+  <h1><b>PERSONAL PORTFOLIO</b></h1>
 
 </div>
 
@@ -60,8 +60,12 @@
 
 > Key features of the application.
 
-- **[Navigation bar in Header section]**
+- **[Navigation bar in Header-Section]**
 - **[Homepage of Personal Portfolio]**
+- **[Built Work-Section]**
+- **[Built About-Section]**
+- **[Built Language-Section]**
+- **[Built Footer-Section]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -73,7 +77,7 @@
 
 - [Live Demo Link](https://chandan-devs-tech.github.io/Portfolio/)
 
-<img src="screenshot of moibile-version_(iPhone SE).png" alt="screenshot of moibile-version_(iPhone SE)" width="300px"  height="auto" />
+<img src="Portfolio-Finish-Mobile-Version_(iPhone SE).png" alt="screenshot of moibile-version_(iPhone SE)" width="300px"  height="auto" />
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
