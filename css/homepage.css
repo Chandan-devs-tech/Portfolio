@@ -127,6 +127,25 @@ nav {
 
   .hero-intro-container {
     padding-top: 140px;
+    width: 95%;
+  }
+
+  .hero-intro-description {
+    width: 75%;
+    text-align-last: center;
+    margin-left: 150px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    color: #172b4d;
+  }
+
+  .hero-intro-heading {
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 60px;
+    letter-spacing: 0.37px;
+    color: #172b4d;
   }
 
   .hero-intro {

@@ -1,0 +1,18 @@
+.last-msg {
+  margin: 60px 24px;
+}
+
+.last-msg-text {
+  color: #172b4d;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  text-align: center;
+  line-height: 52px;
+  font-style: normal;
+}
+
+.click:hover {
+  cursor: pointer;
+  background-color: #008552;
+}
