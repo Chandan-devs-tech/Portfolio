@@ -38,6 +38,7 @@
   color: #36b37e;
   background: #fff;
   border-radius: 8px;
+  float: left;
 }
 
 .list-language-sub-container {
