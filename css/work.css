@@ -69,7 +69,7 @@ h4 {
   /* display: flex; */
   /* justify-content: center; */
   padding-top: 16px;
-  margin-left: 20px;
+  margin-left: 14px;
 }
 
 .languages {
@@ -83,12 +83,14 @@ h4 {
   color: #3a4a42;
   background: #ebf0ee;
   border-radius: 4px;
+  float: left;
 }
 
 .container2-btn {
-  display: flex;
-  justify-content: center;
-  padding-top: 29px;
+  /* display: flex; */
+  /* justify-content: center; */
+  padding-top: 60px;
+  margin-left: 103px;
 }
 
 .see-project {
