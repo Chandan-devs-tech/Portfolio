@@ -31,6 +31,10 @@ form {
   font-style: normal;
 }
 
+:hover::placeholder {
+  transform: translate(10px);
+}
+
 form input {
   width: 327px;
   height: 48px;
