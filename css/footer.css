@@ -92,8 +92,14 @@ form textarea {
 
 .footer-social-icons {
   margin-top: 46px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
 }
 
+/* .footer-social-icons ul li{
+  margin-left: 10px;
+} */
 .image2 {
   position: absolute;
   right: -17px;
