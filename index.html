@@ -29,7 +29,7 @@
           <li class="nav-links-effect"><a href="#">About</a></li>
           <li class="nav-links-effect"><a href="#">Contact</a></li>
         </ul>
-        <ul class="hamburger">
+        <ul class="hamburger" id="ham-button">
           <li class="stroke"></li>
           <li class="stroke"></li>
           <li class="stroke"></li>
@@ -247,6 +247,63 @@
           to chat please get in touch.
         </p>
       </div>
+      <form action="https://formspree.io/f/xaykrgow" method="post" id="form">
+        <input
+          type="text"
+          class="ftext"
+          placeholder="Full name"
+          maxlength="30"
+          required
+        />
+        <input
+          type="email"
+          class="femail"
+          placeholder="Email address"
+          required
+        />
+        <textarea
+          name="message"
+          id="message"
+          class="ftextarea"
+          maxlength="500"
+          placeholder="Enter text here"
+          required
+        ></textarea>
+        <button class="get-in-touch click" type="submit">Get in touch</button>
+        <ul class="social-media-icons footer-social-icons">
+          <li>
+            <a href="#"
+              ><img class="image" src="Assets/twitter.svg" alt="Twitter"
+            /></a>
+          </li>
+          <li>
+            <a href="#"
+              ><img
+                class="image"
+                src="Assets/Linkedin icon (1).svg"
+                alt="LinkedIn"
+            /></a>
+          </li>
+          <li>
+            <a href="#"
+              ><img class="image" src="Assets/medium.svg" alt="Medium"
+            /></a>
+          </li>
+          <li>
+            <a href="#"
+              ><img class="image" src="Assets/github.svg" alt="GitHub"
+            /></a>
+          </li>
+          <li>
+            <a href="#"
+              ><img class="image" src="Assets/angellist.svg" alt="Angel-List"
+            /></a>
+          </li>
+        </ul>
+      </form>
+      <h3 class="footer-email">chandanguptabsb@gmail.com</h3>
+      <hr />
     </section>
+    <script src="js/index.js"></script>
   </body>
 </html>
