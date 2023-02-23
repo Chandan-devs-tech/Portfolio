@@ -73,9 +73,9 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Added a link to my deployed project.
+> Added a Image of my project.
 
-- [Live Demo Link]()
+- [Live Image]
 
 <img src="Portfolio-Mobile-Version(contact-form).png" alt="Portfolio-Mobile-Version" width="300px"  height="auto" />
 
