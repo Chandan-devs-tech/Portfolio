@@ -75,7 +75,7 @@
 
 > Added a Image of my project.
 
-- [Live Image]()
+- [Live Demo Link]()
 
 <img src="Portfolio-Mobile-Version(contact-form).png" alt="Portfolio-Mobile-Version" width="300px"  height="auto" />
 
@@ -157,9 +157,9 @@ To run tests, run the following command:
 
 ## 🤝 Contributing <a name="contributing"></a>
 
-Contributions, issues, and feature requests are welcome!
+- Contributed by [yegonkimutai](https://github.com/yegonkimutai) to enhance the functionality of the project.
 
-Feel free to check the [issues page]()
+- Contributed by [AbbasSarwar](https://github.com/AbbasSarwar) to enhance the functionality of the project.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
