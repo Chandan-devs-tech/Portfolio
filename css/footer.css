@@ -110,8 +110,8 @@ form textarea {
 
 .footer-frame-mob {
   position: absolute;
-  bottom: 0px;
-  right: 0px;
+  bottom: 0;
+  right: 0;
 }
 
 .footer-email {
