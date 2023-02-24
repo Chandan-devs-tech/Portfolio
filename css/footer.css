@@ -154,22 +154,18 @@ hr {
     display: none;
   }
 
-  .contact-form {
-    width: 60%;
-    position: absolute;
-    right: 0;
-  }
-
   .footer-desktop-container {
-    border-bottom: 3px solid blue;
+    display: grid;
+    grid-template-columns: 463px auto;
+    gap: 24px;
+    padding-top: 80px;
+    padding-bottom: 154px;
+    margin: 0 134px;
     position: relative;
   }
 
   .last-msg {
-    width: 40%;
-    position: absolute;
     margin: 0;
-    padding-top: 80px;
   }
 
   .last-msg-text {
@@ -180,17 +176,47 @@ hr {
     text-align: center;
     line-height: 52px;
     font-style: normal;
+    padding-top: 50px;
+  }
+
+  .contact-form {
+    width: 100%;
   }
 
   form input {
-    width: 400px;
+    width: 584px;
     height: 48px;
-    border-radius: 4px;
-    border: 1px solid #d0d9d4;
-    background: #fff;
   }
 
-  .footer-social-icons-container {
-    top: 330px;
+  form textarea {
+    width: 584px;
+    height: 114px;
+  }
+
+  .get-in-touch {
+    margin: 0;
+    margin-top: 24px;
+  }
+
+  .footer-img {
+    padding-bottom: 90px;
+    border-bottom: 3px solid #dfe1e6;
+  }
+
+  .footer-img1 {
+    position: absolute;
+    top: 3320px;
+  }
+
+  .footer-img3 {
+    position: absolute;
+    left: 1040px;
+    top: 3200px;
+  }
+
+  .footer-img2 {
+    position: absolute;
+    left: 274px;
+    /* bottom: 70px; */
   }
 }
