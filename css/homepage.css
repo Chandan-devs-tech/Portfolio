@@ -30,8 +30,6 @@ nav {
   line-height: 28px;
   color: #28352f;
   margin-left: 20px;
- 
-
 }
 
 .hamburger {
@@ -117,10 +115,6 @@ nav {
   justify-content: center;
 }
 
-.icons:hover {
-  background: #c5e9da;
-}
-
 @media screen and (min-width: 768px) {
   .hamburger,
   .header-title {
@@ -167,7 +161,7 @@ nav {
   .nav-links {
     display: flex;
   }
-
+  
   .nav-links-effect a {
     padding: 10px 12px;
     color: #344563;
@@ -175,12 +169,9 @@ nav {
     font-weight: 600;
     font-size: 15px;
     line-height: 20px;
+    z-index: 1;
   }
 
-  .nav-links:hover {
-    transform: scale(1.2);
-  }
-  
   .icons:hover {
     transform: scale(1.5);
   }

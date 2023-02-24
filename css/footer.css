@@ -104,11 +104,11 @@ form textarea {
 }
 
 .footer-social-icons {
-  margin-top: 46px;
   display: flex;
   justify-content: center;
   gap: 20px;
   align-items: center;
+  padding: 24px;
 }
 
 .footer-social-icons-container {
@@ -145,6 +145,12 @@ hr {
   height: 4px;
   background: #0d151e;
   border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+  .footer-img {
+    display: none;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -200,7 +206,7 @@ hr {
 
   .footer-img {
     padding-bottom: 90px;
-    border-bottom: 3px solid #dfe1e6;
+    border-bottom: 2px solid #dfe1e6;
   }
 
   .footer-img1 {
@@ -217,6 +223,6 @@ hr {
   .footer-img2 {
     position: absolute;
     left: 274px;
-    /* bottom: 70px; */
+    bottom: -3000px;
   }
 }
