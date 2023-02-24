@@ -30,6 +30,8 @@ nav {
   line-height: 28px;
   color: #28352f;
   margin-left: 20px;
+ 
+
 }
 
 .hamburger {
@@ -173,5 +175,13 @@ nav {
     font-weight: 600;
     font-size: 15px;
     line-height: 20px;
+  }
+
+  .nav-links:hover {
+    transform: scale(1.2);
+  }
+  
+  .icons:hover {
+    transform: scale(1.5);
   }
 }

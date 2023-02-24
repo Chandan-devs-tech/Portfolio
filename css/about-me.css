@@ -63,6 +63,11 @@
   color: #fff;
   border-style: none;
   border-radius: 4px;
+  transition: all 1s;
+}
+.get-my-resume-btn:hover{
+  background: #008552;
+  transform: translateY(-20px);
 }
 
 @media screen and (min-width: 768px) {
