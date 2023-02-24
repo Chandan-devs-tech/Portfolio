@@ -146,3 +146,51 @@ hr {
   background: #0d151e;
   border-radius: 10px;
 }
+
+@media screen and (min-width: 768px) {
+  .footer-frame-mob,
+  .footer-email,
+  .footer-hr {
+    display: none;
+  }
+
+  .contact-form {
+    width: 60%;
+    position: absolute;
+    right: 0;
+  }
+
+  .footer-desktop-container {
+    border-bottom: 3px solid blue;
+    position: relative;
+  }
+
+  .last-msg {
+    width: 40%;
+    position: absolute;
+    margin: 0;
+    padding-top: 80px;
+  }
+
+  .last-msg-text {
+    color: #172b4d;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+    line-height: 52px;
+    font-style: normal;
+  }
+
+  form input {
+    width: 400px;
+    height: 48px;
+    border-radius: 4px;
+    border: 1px solid #d0d9d4;
+    background: #fff;
+  }
+
+  .footer-social-icons-container {
+    top: 330px;
+  }
+}
