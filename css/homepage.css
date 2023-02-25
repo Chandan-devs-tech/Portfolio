@@ -153,7 +153,7 @@ nav {
   }
 
   nav {
-    position: absolute;
+    position: fixed;
     display: flex;
     justify-content: center;
   }
@@ -161,7 +161,7 @@ nav {
   .nav-links {
     display: flex;
   }
-  
+
   .nav-links-effect a {
     padding: 10px 12px;
     color: #344563;
@@ -169,7 +169,6 @@ nav {
     font-weight: 600;
     font-size: 15px;
     line-height: 20px;
-    z-index: 1;
   }
 
   .icons:hover {
