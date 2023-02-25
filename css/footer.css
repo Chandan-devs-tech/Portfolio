@@ -225,4 +225,8 @@ hr {
     left: 274px;
     bottom: -3000px;
   }
+
+  .click:hover {
+    transform: scale(1.1);
+  }
 }
