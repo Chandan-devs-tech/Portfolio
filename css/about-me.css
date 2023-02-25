@@ -65,7 +65,8 @@
   border-radius: 4px;
   transition: all 1s;
 }
-.get-my-resume-btn:hover{
+
+.get-my-resume-btn:hover {
   background: #008552;
   transform: translateY(-20px);
 }
