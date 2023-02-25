@@ -46,8 +46,6 @@
 }
 
 .container2 {
-  width: 327px;
-  height: 222px;
   border-radius: 8px;
   margin-top: 252px;
   background: #fff;
@@ -106,12 +104,14 @@ h4 {
 @media screen and (min-width: 768px) {
   .work-container {
     display: grid;
-    grid-template-columns: 327px 327px 327px;
-    grid-template-rows: 474px 474px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
     column-gap: 24px;
     justify-content: center;
     padding-top: 62px;
     padding-bottom: 88px;
+    padding-left: 135px;
+    padding-right: 135px;
   }
 
   .indicator {

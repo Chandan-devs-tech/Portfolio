@@ -48,11 +48,13 @@
 @media screen and (min-width: 768px) {
   .language-main-container {
     display: grid;
-    grid-template-columns: 327px 327px 327px;
-    grid-template-rows: 352px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
     column-gap: 24px;
     justify-content: center;
     padding-top: 52px;
     padding-bottom: 84px;
+    padding-left: 135px;
+    padding-right: 135px;
   }
 }
