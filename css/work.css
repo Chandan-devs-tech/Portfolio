@@ -47,7 +47,7 @@
 
 .container2 {
   border-radius: 8px;
-  margin-top: 252px;
+  margin-top: 215px;
   background: #fff;
   padding-top: 16px;
 }
@@ -63,7 +63,7 @@ h4 {
   font-style: normal;
 }
 
-.list-languages {
+.list-language {
   display: flex;
   justify-content: center;
   padding-top: 16px;
@@ -86,6 +86,7 @@ h4 {
   display: flex;
   justify-content: center;
   padding-top: 29px;
+  padding-bottom: 20px;
 }
 
 .see-project {
