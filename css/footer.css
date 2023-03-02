@@ -1,5 +1,5 @@
 .last-msg {
-  margin: 60px 24px;
+  margin: 34px 24px;
 }
 
 .last-msg-text {
@@ -15,4 +15,134 @@
 .click:hover {
   cursor: pointer;
   background-color: #008552;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.btn-center {
+  display: flex;
+  justify-content: center;
+}
+
+.ftext {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #6b778c;
+  font-style: normal;
+  padding: 15px;
+}
+
+:hover::placeholder {
+  transform: translate(10px);
+}
+
+form input {
+  width: 327px;
+  height: 48px;
+  border-radius: 4px;
+  border: 1px solid #d0d9d4;
+  background: #fff;
+}
+
+.femail {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  margin-top: 24px;
+  color: #6b778c;
+  font-style: normal;
+  padding: 15px;
+}
+
+form textarea {
+  width: 327px;
+  height: 114px;
+  border-radius: 4px;
+  border: 1px solid #60c095;
+  margin-top: 24px;
+  background: #fff;
+}
+
+.ftextarea {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  margin-top: 24px;
+  color: #091e42;
+  font-style: normal;
+  padding-left: 16px;
+  padding-top: 12px;
+}
+
+.ftextarea::placeholder {
+  color: black;
+}
+
+.get-in-touch {
+  padding: 12px;
+  background: #36b37f;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #fff;
+  border-style: none;
+  border-radius: 4px;
+  margin-top: 24px;
+  margin-left: 99px;
+}
+
+.footer-social-icons {
+  margin-top: 46px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+}
+
+.footer-social-icons-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-frame-mob {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.footer-email {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  color: #42526e;
+  font-style: normal;
+  text-align: center;
+  padding-top: 19px;
+}
+
+.footer-hr {
+  display: flex;
+  justify-content: center;
+}
+
+hr {
+  margin: 100px 120px 10px 121px;
+  width: 134px;
+  height: 4px;
+  background: #0d151e;
+  border-radius: 10px;
 }

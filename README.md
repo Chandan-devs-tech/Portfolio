@@ -73,11 +73,11 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Added a link to my deployed project.
+> Added a Image of my project.
 
-- [Live Demo Link](https://chandan-devs-tech.github.io/Portfolio/)
+- [Live Demo Link]()
 
-<img src="Portfolio-Finish-Mobile-Version_(iPhone SE).png" alt="Portfolio-Finish-Mobile-Version_(iPhone SE)" width="300px"  height="auto" />
+<img src="Portfolio-Mobile-Version(contact-form).png" alt="Portfolio-Mobile-Version" width="300px"  height="auto" />
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -157,9 +157,9 @@ To run tests, run the following command:
 
 ## 🤝 Contributing <a name="contributing"></a>
 
-Contributions, issues, and feature requests are welcome!
+- Contributed by [yegonkimutai](https://github.com/yegonkimutai) to enhance the functionality of the project.
 
-Feel free to check the [issues page]()
+- Contributed by [AbbasSarwar](https://github.com/AbbasSarwar) to enhance the functionality of the project.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
