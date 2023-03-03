@@ -161,7 +161,7 @@ To run tests, run the following command:
 
 - Contributed by [AbbasSarwar](https://github.com/AbbasSarwar) to enhance the functionality of the project.
 
-- Contributed by [Sana Tameem](https://github.com/SanaTameem) to enhance the functionality of the project.
+- Contributed by [SanaTameem](https://github.com/SanaTameem) to enhance the functionality of the project.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
