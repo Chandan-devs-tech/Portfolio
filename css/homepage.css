@@ -115,11 +115,7 @@ nav {
   justify-content: center;
 }
 
-.icons:hover {
-  background: #c5e9da;
-}
-
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 1700px) and (min-width: 768px) {
   .hamburger,
   .header-title {
     display: none;
@@ -157,7 +153,7 @@ nav {
   }
 
   nav {
-    position: absolute;
+    position: fixed;
     display: flex;
     justify-content: center;
   }
@@ -173,5 +169,9 @@ nav {
     font-weight: 600;
     font-size: 15px;
     line-height: 20px;
+  }
+
+  .icons:hover {
+    transform: scale(1.5);
   }
 }

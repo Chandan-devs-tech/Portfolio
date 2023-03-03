@@ -77,7 +77,7 @@
 
 - [Live Demo Link]()
 
-<img src="Portfolio-Mobile-Version(contact-form).png" alt="Portfolio-Mobile-Version" width="300px"  height="auto" />
+<img src="Portfolio-Desktop-Version.png" alt="Portfolio-Desktop-Version-Img" width="800px"  height="auto" />
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -160,6 +160,8 @@ To run tests, run the following command:
 - Contributed by [yegonkimutai](https://github.com/yegonkimutai) to enhance the functionality of the project.
 
 - Contributed by [AbbasSarwar](https://github.com/AbbasSarwar) to enhance the functionality of the project.
+
+- Contributed by [SanaTameem](https://github.com/SanaTameem) to enhance the functionality of the project.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

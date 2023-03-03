@@ -104,11 +104,11 @@ form textarea {
 }
 
 .footer-social-icons {
-  margin-top: 46px;
   display: flex;
   justify-content: center;
   gap: 20px;
   align-items: center;
+  padding: 24px;
 }
 
 .footer-social-icons-container {
@@ -145,4 +145,68 @@ hr {
   height: 4px;
   background: #0d151e;
   border-radius: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .footer-frame-mob,
+  .footer-email,
+  .footer-hr {
+    display: none;
+  }
+
+  .footer-desktop-container {
+    max-width: 116rem;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: minmax(0, 2fr) minmax(0, 3fr);
+    column-gap: 2.4rem;
+    margin-bottom: 16.5rem;
+    padding-right: 4rem;
+    padding-left: 2rem;
+  }
+
+  .last-msg {
+    margin: 0;
+  }
+
+  .last-msg-text {
+    color: #172b4d;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    text-align-last: center;
+    line-height: 52px;
+    font-style: normal;
+    padding-top: 50px;
+  }
+
+  .contact-form {
+    width: 100%;
+  }
+
+  form input {
+    width: auto;
+    height: 48px;
+  }
+
+  form textarea {
+    width: auto;
+    height: 114px;
+  }
+
+  .get-in-touch {
+    margin: 0;
+    margin-top: 24px;
+  }
+
+  .footer-img {
+    padding: 0;
+    background-image: url("../Assets/Frame1.svg"), url("../Assets/frame2.svg"), url("../Assets/Frame3.svg");
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-position: 0% 80%, 20% 70%, 100% 55%;
+  }
+
+  .footer-social-icons-container {
+    border-top: 1px solid #dfe1e6;
+  }
 }

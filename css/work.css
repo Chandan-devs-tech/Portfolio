@@ -46,10 +46,8 @@
 }
 
 .container2 {
-  width: 327px;
-  height: 222px;
   border-radius: 8px;
-  margin-top: 252px;
+  margin-top: 250px;
   background: #fff;
   padding-top: 16px;
 }
@@ -65,7 +63,7 @@ h4 {
   font-style: normal;
 }
 
-.list-languages {
+.list-language {
   display: flex;
   justify-content: center;
   padding-top: 16px;
@@ -88,6 +86,7 @@ h4 {
   display: flex;
   justify-content: center;
   padding-top: 29px;
+  padding-bottom: 20px;
 }
 
 .see-project {
@@ -103,15 +102,97 @@ h4 {
   border-radius: 4px;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 1180px) and (min-width: 768px) {
   .work-container {
     display: grid;
-    grid-template-columns: 327px 327px 327px;
-    grid-template-rows: 474px 474px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    column-gap: 0;
+    justify-items: center;
+  }
+
+  .container1 {
+    border-radius: 8px;
+    background: #ebf0ee;
+    outline: 1px solid #d0d9d4;
+    height: 378px;
+    width: 235px;
+    left: 0;
+    top: 0;
+  }
+
+  .container2 {
+    border-radius: 8px;
+    margin-top: 172px;
+    background: #fff;
+    padding-top: 0;
+  }
+
+  .see-project {
+    padding: 10px;
+    background: #36b37f;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+    letter-spacing: 0.03em;
+    color: #fff;
+    border-style: none;
+    border-radius: 4px;
+  }
+
+  .container2-btn {
+    display: flex;
+    justify-content: center;
+    padding-top: 7px;
+    padding-bottom: 7px;
+  }
+
+  .languages {
+    margin-left: 5px;
+    padding: 8px 11px;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 7px;
+    line-height: 16px;
+    color: #3a4a42;
+    background: #ebf0ee;
+    border-radius: 4px;
+  }
+
+  .list-language {
+    display: flex;
+    justify-content: center;
+  }
+
+  h4 {
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    text-align: center;
+    line-height: 32px;
+    margin: 0 16px;
+    color: #3a4a42;
+    font-style: normal;
+    padding-top: 6px;
+  }
+
+  .hero-intro {
+    padding-bottom: 0;
+  }
+}
+
+@media screen and (max-width: 1700px) and (min-width: 1181px) {
+  .work-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
     column-gap: 24px;
     justify-content: center;
     padding-top: 62px;
     padding-bottom: 88px;
+    padding-left: 135px;
+    padding-right: 135px;
   }
 
   .indicator {
