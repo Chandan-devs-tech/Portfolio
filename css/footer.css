@@ -15,6 +15,7 @@
 .click:hover {
   cursor: pointer;
   background-color: #008552;
+  transform: scale(1.1);
 }
 
 .contact-form {
