@@ -163,6 +163,10 @@ To run tests, run the following command:
 
 - Contributed by [SanaTameem](https://github.com/SanaTameem) to enhance the functionality of the project.
 
+- Contributed by [God-Logic](https://github.com/God-Logic) to enhance the functionality of the project.
+
+- Contributed by [Bezalell Barnet W](https://github.com/BezzB) to enhance the functionality of the project.
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- SUPPORT -->
