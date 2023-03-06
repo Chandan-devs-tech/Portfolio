@@ -77,8 +77,6 @@
 
 - [Live Demo Link]()
 
-<img src="Portfolio-Desktop-Version.png" alt="Portfolio-Desktop-Version-Img" width="800px"  height="auto" />
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
