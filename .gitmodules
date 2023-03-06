@@ -1,3 +1,8 @@
 [submodule "Portfolio"]
     path = Portfolio
-    url = https://chandan-devs-tech.github.io/Portfolio
+    url = https://chandan-devs-tech.github.io/Portfolio.git
+[submodule "Portfolio"]
+    path = Portfolio
+    url = https://chandan-devs-tech.github.io/Portfolio.git
+
+
