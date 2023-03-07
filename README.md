@@ -64,6 +64,7 @@
 - **[Built About-Section]**
 - **[Built Language-Section]**
 - **[Built Footer-Section]**
+- **[Deployed using GitHub pages]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
